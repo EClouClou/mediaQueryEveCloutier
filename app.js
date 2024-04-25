@@ -22,11 +22,11 @@ function addconnexion(mediaQueryLittleOne) {
 
     if(mediaQueryLittleOne.matches){
         iconConnexion.classList.remove('hidden');
-        connexionText.classList.add('connexionText');
+        connexionText.classList.remove('connexionText');
 
     }
     else{iconConnexion.classList.add('hidden');
-    connexionText.classList.remove('hidden');
+    connexionText.classList.add('hidden');
     }
 }
 
